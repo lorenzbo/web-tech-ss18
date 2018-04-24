@@ -1,0 +1,10 @@
+#TODO:
+
+Genaue Struktur noch einmal aus VL nachschauen bezüglich best practices, v.a. Details wie "article"
+
+Auf einen Editor einigen?
+
+
+NICHT VERGESSEN:
+
+In Sourcetree "Push changes immediately to origin/master" nicht angeschaltet lassen
