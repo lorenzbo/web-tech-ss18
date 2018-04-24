@@ -1,5 +1,24 @@
-
-
 NICHT VERGESSEN:
 
-In Sourcetree "Push changes immediately to origin/master" nicht angeschaltet lassen
+1. und 22. mai nicht; abgaben ins handy eintragen
+
+chrome oder ff? entscheiden, alle müssen neueste version verwenden!
+
+breadcrumbs verwenden
+
+links nicht bitly oder so, ist aber auch logisch
+
+nicht mehr seiten als nötig
+
+vs code, nicht vs!
+er hat ne liste von guten plugins dafür!
+
+size bei bildern auch in css datei rein, absolute trennung, also nix davon in html
+
+INTERESSANT:
+
+solange mehrere css files nicht ineinander greifen sind sie effizienter, weil sie parallel geladen werden können
+
+IDEE: mit :before und :after in navbar eine navbar wie früher bei longhorn implementieren? zumindest mal mit rumspielen, vielleicht ist der effekt ganz interessant und low-tech
+
+impressum muss nicht so gut sein
