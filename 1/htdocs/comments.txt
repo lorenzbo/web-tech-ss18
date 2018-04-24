@@ -1,8 +1,10 @@
 #TODO:
 
+Entscheidung Fußball oder Bierkeller
+
 Genaue Struktur noch einmal aus VL nachschauen bezüglich best practices, v.a. Details wie "article"
 
-Auf einen Editor einigen?
+Auf einen Editor einigen? Wenn ja, welchen?
 
 
 NICHT VERGESSEN:
