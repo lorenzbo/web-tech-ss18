@@ -1,2 +1,118 @@
+body {
+    background: #CC95C0; /* fallback, just to be sure */
+    background: linear-gradient(to right, #7AA1D2, #DBD4B4, #CC95C0); 
+}
 
 
+header {
+	font-size: 18px;
+	color: white;
+
+	
+    background-color: lightsteelblue; /* fallback */
+    background-image: url("../img/bees/bees-horizontal-hive-outside.jpeg");
+	background-repeat: no-repeat;
+	background-position: center;
+    background-size: cover;
+    
+    border-radius: 20px;
+    padding: 20px;
+	margin: 10px;
+}
+
+
+/* https://www.w3schools.com/howto/howto_css_sidenav_buttons.asp hoverable side nav testS */
+
+/* Style the links inside the sidenav */
+#mySidenav a {
+	z-index: 90;/* stays on top of pretty much everything */
+    position: fixed; /* Position them relative to the browser window; changed from absolute so that it stays in the middle */
+    left: -150px; /* Position them outside of the screen */
+    transition: 0.3s; /* Add transition on hover */
+    padding: 15px; /* 15px padding */
+    width: 180px; /* Set a specific width */
+    text-decoration: none; /* Remove underline */
+    font-size: 20px; /* Increase font size */
+	text-align: center;
+    color: white; /* White text color */
+    border-radius: 9px 9px 9px 9px; /* Rounded corners on the top right and bottom right side */
+	/*font-family: 'Fira Sans'; */
+	}
+
+    #mySidenav a:hover {
+        left: 0; /* On mouse-over, make the elements appear as they should */
+    }
+    
+    /* The about link: 20px from the top with a green background */
+    #landing-page {
+        top: 260px;
+        background-color: #4CAF50;
+    }
+    
+    #about-us {
+        top: 320px;
+        background-color: #2196F3; /* Blue */
+    }
+    
+    #gallery {
+        top: 380px;
+        background-color: #f44336; /* Red */
+    }
+    
+    #contact {
+        top: 440px;
+        background-color: #555 /* Light Black */
+    }
+
+
+section {
+        margin-left:80px
+      /* float: right; */
+      /* width: 895px; */
+}
+
+.clear {
+    clear: both;
+      padding-bottom: 50px;
+      min-height: 100%;
+  }
+
+footer {
+
+	
+	/* font-family: 'Sirin Stencil'; */
+	font-size: 18px;
+    color: white;
+    background-color: lightsteelblue; /* fallback */
+	background-image: url("../img/bees/bees-footer.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	
+	border-radius: 20px;
+	padding: 20px;
+	bottom:0;
+	left: 0;
+	right: 0;
+	position: fixed;
+	height: 50px;
+	margin: 10px;
+	/* width:98%; */
+	/* border-radius: 20px; */
+	
+}
+
+
+
+
+figure {
+    float: left;
+    /* width: 30%; ist pfusch, aus https://www.w3.org/Style/Examples/007/figures.de.html, zerhaut aber alles*/
+    text-align: center;
+    font-style: italic;
+    /* font-size: smaller; */
+    text-indent: 0;
+    /* border: medium silver solid; */
+    margin: 0.5em;
+    padding: 0.5em;
+  }
