@@ -23,26 +23,18 @@ nav > ul li       ul { display: none; }
 nav > ul li:hover ul { display: block;}
 */
 
-/*VERTICAL MENU*/
-
 nav.vertNav {
   position: relative;
   width: 200px;
 }
 
-/* ALL UL */
-
 nav.vertNav ul {
   list-style: none;
 }
 
-/* ALL LI */
-
 nav.vertNav li {
   position: relative;
 }
-
-/* ALL A */
 
 nav.vertNav a {
   display: block;
@@ -51,15 +43,14 @@ nav.vertNav a {
   padding: 15px;
   background: grey;
   transition: 0.3s;
+  border-radius: 20px;
+  padding: 20px;
+  margin: 10px;
 }
-
-/* ALL A HOVER */
 
 nav.vertNav li:hover>a {
   background: green;
 }
-
-/* INNER UL HIDE */
 
 nav.vertNav ul ul {
   position: absolute;
@@ -69,13 +60,11 @@ nav.vertNav ul ul {
   visibility: hidden;
   opacity: 0;
   transition: transform 0.4s;
-  transform: translateX(50px);
+  transform: translateX(80px);
 }
 
-/* INNER UL SHOW */
-
 nav.vertNav li:hover>ul {
-  left: 100%;
+  left: 70%;
   visibility: visible;
   opacity: 1;
   transform: translateX(0px);
@@ -126,4 +115,9 @@ figure {
   /* border: medium silver solid; */
   margin: 0.5em;
   padding: 0.5em;
+}
+
+.roundRect {
+  border-radius: 10px;
+  padding: 10px;
 }
