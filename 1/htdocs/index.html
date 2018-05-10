@@ -10,40 +10,62 @@
 <body>
 
 	<header>
-		
-		<p> <img id="logo" src="img/logo1.png" alt="logo 1" width="290" height="50"> 
-			bla header
+
+		<p>
+			<img id="logo" src="img/logo1.png" alt="logo 1" width="290" height="50"> bla header
 			<img id="bbc" src="img/logo2.png" alt="logo 2" width="175" height="50">
 		</p>
 
 	</header>
 
-	<nav id="mySidenav">
-		<a href="index.html" id="landing-page">Startseite</a>
-		<a href="about-us.html" id="about-us">Über Uns</a>
-		<a href="gallery.html" id="gallery">Galerie</a>
-		<a href="contact.html" id="contact">Kontakt</a>
+
+	<nav class="vertNav">
+		<ul>
+			<li>
+				<a href="#">Startseite</a>
+			</li>
+			<li>
+				<a href="#">Spezi-Keller</a>
+				<ul>
+					<li>
+						<a href="#">zusätzliches zum</a>
+					</li>
+					<li>
+						<a href="#">spezikeller</a>
+					</li>
+				</ul>
+			</li>
+			<li>
+				<a href="#">Wilde-Rose-Keller</a>
+			</li>
+			<li>
+				<a href="#">Fässla-Keller</a>
+			</li>
+		</ul>
 	</nav>
-	
+
+
 	<section>
 		<p>bla section</p>
 
 		<article>
 			<figure>
-			<picture>
-				<!-- andere sources für unterschiedliche bildschirmgrößen (v.a. mobile); wenn dann auto resizer mit irfanview auf alle bilder, macht aber nur sinn wenn ich viele gleich große bilder hab.  -->
-				<!-- <source media="(min-width: 650px)" srcset="img/bees/on-watering-can.JPG"> -->
-				<!-- <source media="(min-width: 465px)" srcset="img/bees/on-watering-can.JPG"> -->
-				<img src="img/blablabla.JPG" alt="alttext muss hier rein" style="width:400px; float:left;">
-			</picture>
-			<figcaption>figcaption</figcaption>
+				<picture>
+					<!-- andere sources für unterschiedliche bildschirmgrößen (v.a. mobile); wenn dann auto resizer mit irfanview auf alle bilder, macht aber nur sinn wenn ich viele gleich große bilder hab.  -->
+					<!-- <source media="(min-width: 650px)" srcset="img/bees/on-watering-can.JPG"> -->
+					<!-- <source media="(min-width: 465px)" srcset="img/bees/on-watering-can.JPG"> -->
+					<img src="img/blablabla.JPG" alt="alttext muss hier rein" style="width:400px; float:left;">
+				</picture>
+				<figcaption>figcaption</figcaption>
 			</figure>
 			<div>
-			<h3>h3 überschrift</h3>
-			
-			<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor inviduntlandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.   
-			Ut wisi enim ar cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer
-			</p>
+				<h3>h3 überschrift</h3>
+
+				<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor inviduntlandit praesent luptatum
+					zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+					sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ar cum soluta nobis
+					eleifend option congue nihil imperdiet doming id quod mazim placerat facer
+				</p>
 			</div>
 		</article>
 	</section>
@@ -51,11 +73,11 @@
 
 	<p class="clear"></p>
 
-	
+
 	<footer>
 		<p>bla footer</p>
 	</footer>
-	
+
 </body>
 
 </html>

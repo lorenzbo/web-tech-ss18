@@ -20,49 +20,59 @@ header {
 	margin: 10px;
 }
 
+/*
+nav > ul li       ul { display: none; }
+nav > ul li:hover ul { display: block;}
+*/
 
-/* https://www.w3schools.com/howto/howto_css_sidenav_buttons.asp hoverable side nav testS */
 
-/* Style the links inside the sidenav */
-#mySidenav a {
-	z-index: 90;/* stays on top of pretty much everything */
-    position: fixed; /* Position them relative to the browser window; changed from absolute so that it stays in the middle */
-    left: -150px; /* Position them outside of the screen */
-    transition: 0.3s; /* Add transition on hover */
-    padding: 15px; /* 15px padding */
-    width: 180px; /* Set a specific width */
-    text-decoration: none; /* Remove underline */
-    font-size: 20px; /* Increase font size */
-	text-align: center;
-    color: white; /* White text color */
-    border-radius: 9px 9px 9px 9px; /* Rounded corners on the top right and bottom right side */
-	/*font-family: 'Fira Sans'; */
-	}
-
-    #mySidenav a:hover {
-        left: 0; /* On mouse-over, make the elements appear as they should */
-    }
-    
-    /* The about link: 20px from the top with a green background */
-    #landing-page {
-        top: 260px;
-        background-color: #4CAF50;
-    }
-    
-    #about-us {
-        top: 320px;
-        background-color: #2196F3; /* Blue */
-    }
-    
-    #gallery {
-        top: 380px;
-        background-color: #f44336; /* Red */
-    }
-    
-    #contact {
-        top: 440px;
-        background-color: #555 /* Light Black */
-    }
+/*VERTICAL MENU*/
+nav.vertNav{
+    position:relative;
+    width:200px;
+  }
+  
+  /* ALL UL */
+  nav.vertNav ul{
+    list-style: none;
+  }
+  /* ALL LI */
+  nav.vertNav li{
+    position:relative;
+  }
+  /* ALL A */
+  nav.vertNav a{
+    display:block;
+    color:#eee;
+    text-decoration:none;
+    padding:15px;
+    background:grey;
+    transition:0.3s;
+  }
+  /* ALL A HOVER */
+  nav.vertNav li:hover > a{
+    background:green;
+  }
+  
+  /* INNER UL HIDE */
+  nav.vertNav ul ul{
+    position:absolute;
+    left:0%;
+    top:0;
+    width:100%;
+    visibility:hidden;
+    opacity:0;
+    transition: transform 0.4s;
+    transform: translateX(50px);
+  }
+  /* INNER UL SHOW */
+  nav.vertNav li:hover > ul{
+    left:100%;
+    visibility:visible;
+    opacity:1;
+    transform: translateX(0px);
+  }
+  
 
 
 section {
