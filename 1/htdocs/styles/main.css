@@ -1,15 +1,19 @@
-body {
-  background: #cc95c0;
-  /* fallback, just to be sure */
-  background: linear-gradient(to right, #7aa1d2, #dbd4b4, #cc95c0);
-}
+body { 
+ 
+  background-image: url("auf_-dem-bierkeller-in-bamberg-bamberg_background.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  /* fallback, just to be sure */ 
+
+  }
 
 header {
-  font-size: 18px;
-  color: white;
+  font-size: 40px;
+  color: Black;
+  font-weight: bold;
   background-color: lightsteelblue;
   /* fallback */
-  background-image: url("../img/bees/bees-horizontal-hive-outside.jpeg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
