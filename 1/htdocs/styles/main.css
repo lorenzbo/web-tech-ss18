@@ -73,13 +73,13 @@ nav.vertNav li:hover > ul {
 section {
   margin-left: 250px;
   margin-right: 25px;
-  float: center;
+  float: top;
   max-width: 900px;
 }
 
 .clear {
   clear: both;
-  padding-bottom: 50px;
+  padding-bottom: 150px;
   min-height: 100%;
 }
 
