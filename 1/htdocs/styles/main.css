@@ -1,23 +1,21 @@
 body {
-    background: #CC95C0; /* fallback, just to be sure */
-    background: linear-gradient(to right, #7AA1D2, #DBD4B4, #CC95C0); 
+  background: #CC95C0;
+  /* fallback, just to be sure */
+  background: linear-gradient(to right, #7AA1D2, #DBD4B4, #CC95C0);
 }
 
-
 header {
-	font-size: 18px;
-	color: white;
-
-	
-    background-color: lightsteelblue; /* fallback */
-    background-image: url("../img/bees/bees-horizontal-hive-outside.jpeg");
-	background-repeat: no-repeat;
-	background-position: center;
-    background-size: cover;
-    
-    border-radius: 20px;
-    padding: 20px;
-	margin: 10px;
+  font-size: 18px;
+  color: white;
+  background-color: lightsteelblue;
+  /* fallback */
+  background-image: url("../img/bees/bees-horizontal-hive-outside.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 20px;
+  padding: 20px;
+  margin: 10px;
 }
 
 /*
@@ -25,104 +23,107 @@ nav > ul li       ul { display: none; }
 nav > ul li:hover ul { display: block;}
 */
 
-
 /*VERTICAL MENU*/
-nav.vertNav{
-    position:relative;
-    width:200px;
-  }
-  
-  /* ALL UL */
-  nav.vertNav ul{
-    list-style: none;
-  }
-  /* ALL LI */
-  nav.vertNav li{
-    position:relative;
-  }
-  /* ALL A */
-  nav.vertNav a{
-    display:block;
-    color:#eee;
-    text-decoration:none;
-    padding:15px;
-    background:grey;
-    transition:0.3s;
-  }
-  /* ALL A HOVER */
-  nav.vertNav li:hover > a{
-    background:green;
-  }
-  
-  /* INNER UL HIDE */
-  nav.vertNav ul ul{
-    position:absolute;
-    left:0%;
-    top:0;
-    width:100%;
-    visibility:hidden;
-    opacity:0;
-    transition: transform 0.4s;
-    transform: translateX(50px);
-  }
-  /* INNER UL SHOW */
-  nav.vertNav li:hover > ul{
-    left:100%;
-    visibility:visible;
-    opacity:1;
-    transform: translateX(0px);
-  }
-  
 
+nav.vertNav {
+  position: relative;
+  width: 200px;
+}
+
+/* ALL UL */
+
+nav.vertNav ul {
+  list-style: none;
+}
+
+/* ALL LI */
+
+nav.vertNav li {
+  position: relative;
+}
+
+/* ALL A */
+
+nav.vertNav a {
+  display: block;
+  color: #eee;
+  text-decoration: none;
+  padding: 15px;
+  background: grey;
+  transition: 0.3s;
+}
+
+/* ALL A HOVER */
+
+nav.vertNav li:hover>a {
+  background: green;
+}
+
+/* INNER UL HIDE */
+
+nav.vertNav ul ul {
+  position: absolute;
+  left: 0%;
+  top: 0;
+  width: 100%;
+  visibility: hidden;
+  opacity: 0;
+  transition: transform 0.4s;
+  transform: translateX(50px);
+}
+
+/* INNER UL SHOW */
+
+nav.vertNav li:hover>ul {
+  left: 100%;
+  visibility: visible;
+  opacity: 1;
+  transform: translateX(0px);
+}
 
 section {
-        margin-left:80px
-      /* float: right; */
-      /* width: 895px; */
+  margin-left: 250px;
+  margin-right: 25px;
+  float: center;
+  max-width: 900px;
 }
 
 .clear {
-    clear: both;
-      padding-bottom: 50px;
-      min-height: 100%;
-  }
-
-footer {
-
-	
-	/* font-family: 'Sirin Stencil'; */
-	font-size: 18px;
-    color: white;
-    background-color: lightsteelblue; /* fallback */
-	background-image: url("../img/bees/bees-footer.jpg");
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: cover;
-	
-	border-radius: 20px;
-	padding: 20px;
-	bottom:0;
-	left: 0;
-	right: 0;
-	position: fixed;
-	height: 50px;
-	margin: 10px;
-	/* width:98%; */
-	/* border-radius: 20px; */
-	
+  clear: both;
+  padding-bottom: 50px;
+  min-height: 100%;
 }
 
-
-
+footer {
+  /* font-family: 'Sirin Stencil'; */
+  font-size: 18px;
+  color: white;
+  background-color: lightsteelblue;
+  /* fallback */
+  background-image: url("../img/bees/bees-footer.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 20px;
+  padding: 20px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  position: fixed;
+  height: 50px;
+  margin: 10px;
+  /* width:98%; */
+  /* border-radius: 20px; */
+}
 
 figure {
-    float: left;
-    /* width: 30%; ist pfusch, aus https://www.w3.org/Style/Examples/007/figures.de.html, zerhaut aber alles*/
-    text-align: center;
-    font-style: italic;
-    /* font-size: smaller; */
-    text-indent: 0;
-    /* border: medium silver solid; */
-    margin: 0.5em;
-    padding: 0.5em;
-  }
+  float: left;
+  /* width: 30%; ist pfusch, aus https://www.w3.org/Style/Examples/007/figures.de.html, zerhaut aber alles*/
+  text-align: center;
+  font-style: italic;
+  /* font-size: smaller; */
+  text-indent: 0;
+  /* border: medium silver solid; */
+  margin: 0.5em;
+  padding: 0.5em;
+}
