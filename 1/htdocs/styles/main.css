@@ -1,7 +1,7 @@
 body {
-  background: #CC95C0;
+  background: #cc95c0;
   /* fallback, just to be sure */
-  background: linear-gradient(to right, #7AA1D2, #DBD4B4, #CC95C0);
+  background: linear-gradient(to right, #7aa1d2, #dbd4b4, #cc95c0);
 }
 
 header {
@@ -48,7 +48,7 @@ nav.vertNav a {
   margin: 10px;
 }
 
-nav.vertNav li:hover>a {
+nav.vertNav li:hover > a {
   background: green;
 }
 
@@ -63,7 +63,7 @@ nav.vertNav ul ul {
   transform: translateX(80px);
 }
 
-nav.vertNav li:hover>ul {
+nav.vertNav li:hover > ul {
   left: 70%;
   visibility: visible;
   opacity: 1;
